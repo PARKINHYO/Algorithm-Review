@@ -59,6 +59,7 @@ heapObj.insertKey(15)
 heapObj.insertKey(5)
 heapObj.insertKey(4)
 heapObj.insertKey(45)
+heapObj.insertKey(43)
 
 print(heapObj.extractMin())
 print(heapObj.getMin())
@@ -66,3 +67,5 @@ heapObj.decreaseKey(2, 1)
 print(heapObj.getMin())
 
 # This code is contributed by Nikhil Kumar Singh(nickzuck_007)
+
+#Fixme MaxHeap는 값을 넣을 때 -를 붙여 값을 넣고 뺄 때 -1을 곱한 값을 출력시킨다.
